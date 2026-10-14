@@ -15,4 +15,9 @@ npm start
 API: `/api/health`, `/api/designs`, `/api/contact` (POST), `/api/messages`.
 
 ## Live (GitHub Pages)
-Frontend published via GitHub Pages. Backend can be deployed to Render/Railway/Fly using `backend/`.
+Frontend published via GitHub Pages: https://rajeev8980.github.io/qi-kly-demo/
+
+## Deploy backend (Render, one click)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/rajeev8980/qi-kly-demo)
+
+The `render.yaml` blueprint deploys the Node backend with `/api/health` check. Then point frontend calls to your Render URL.
